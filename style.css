@@ -1,0 +1,92 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    height: 30px;
+}
+header img {
+    width: 10%;
+    margin-left: 1rem;
+}
+ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    padding-inline-start: 0;
+}
+
+.logo {
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.logo:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+    text-align: center;
+}
+
+main {
+    padding: 1.5rem 0 .5rem;
+}
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+a {
+    color: #274FCD;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    padding-left: 1.1rem;
+    font-size: .9rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ol > li > ol {
+    list-style: lower-alpha;
+}
+
+footer {
+    background-color: ghostwhite;
+    height: 90px;
+}
+
+.container-footer {
+    width: 60%;
+  
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li {
+    list-style: none;
+}
